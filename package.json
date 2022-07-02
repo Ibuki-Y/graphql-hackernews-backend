@@ -1,0 +1,27 @@
+{
+  "name": "hackernews-graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.15.2",
+    "apollo-server": "^2.25.4",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "graphql": "^14.6.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.10.4",
+    "eslint": "^8.18.0",
+    "eslint-plugin-graphql": "^4.0.0",
+    "prettier": "2.7.1",
+    "prisma": "^3.15.2"
+  }
+}
